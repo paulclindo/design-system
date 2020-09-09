@@ -1,9 +1,4 @@
 import React, { useState } from 'react';
-import {
-  PrimaryButton,
-  SecondaryButton,
-  TertiaryButton,
-} from './components/Buttons';
 import { GlobalStyle } from './utils/GlobalStyles';
 import { darkTheme, defaultTheme } from './utils/themes';
 import styled, { ThemeProvider } from 'styled-components';
@@ -21,15 +16,18 @@ const Wrapper = styled.div`
 
 function App() {
   const [useDarkTheme, setUseDarkTheme] = useState(false);
+  const [showModal, setShowModal] = useState(false);
+
   return (
     <ThemeProvider theme={useDarkTheme ? darkTheme : defaultTheme}>
       <div style={{ padding: 30 }}>
         <button onClick={() => setUseDarkTheme(!useDarkTheme)}>
           {useDarkTheme ? 'Default Theme' : 'Dark Theme'}
         </button>
+        <button onClick={() => setShowModal(!showModal)}>Log In</button>
       </div>
       <Wrapper useDarkTheme={useDarkTheme}>
-        <SignUpModal />
+        <SignUpModal showModal={showModal} setShowModal={setShowModal} />
       </Wrapper>
       <GlobalStyle />
     </ThemeProvider>

@@ -1,11 +1,5 @@
 import React from 'react';
-import styled from 'styled-components';
 import Icon from './BaseIcon';
-
-const CloseIconWrapper = styled.svg`
-  width: 100%;
-  height: 100%;
-`;
 
 export const CloseIcon = () => (
   <Icon aria-hidden="true" viewBox="0 0 25 25">
