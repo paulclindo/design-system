@@ -1,4 +1,12 @@
-<h1 align="center">Design System | In Progress</h1> 
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/58c5830f-3c4e-4d39-b972-e964ca7acda4/deploy-status)](https://app.netlify.com/sites/pcl-design-system/deploys)
+
+
+- Watch Live - Figma [Here](https://www.figma.com/file/owS485uHqT5mJgtilY9vrb/react-storybook?node-id=0%3A1)
+- Watch Live - Storybook [Here](https://pcl-design-system.netlify.app/?path=/story/designsystem-buttons--primary)
+
+<h1 align="center">Design System </h1>
+
 
 <h2 align="center"> Figma + React + Styled Components + Storybook 🔥 </h2>
 
@@ -20,10 +28,6 @@
 </p>
 
 
-
-
-
-Watch Live In Figma [Here](https://www.figma.com/file/owS485uHqT5mJgtilY9vrb/react-storybook?node-id=0%3A1)
 
 ## Getting Started
 
